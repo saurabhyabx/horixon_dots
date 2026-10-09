@@ -1,0 +1,19 @@
+node_modules
+.output
+.nitro
+.wrangler
+.vinxi
+dist
+
+# environment
+.env
+.env.*
+!.env.example
+
+# generated / local tooling
+.tanstack
+.claude
+*.log
+.DS_Store
+Thumbs.db
+coverage
